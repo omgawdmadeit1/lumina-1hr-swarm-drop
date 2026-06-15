@@ -1,0 +1,19 @@
+{
+  "id": "prod_tesla_cyberwhistle_300_20260615",
+  "type": "TeslaPayProduct",
+  "title": "Cyberwhistle-style Merch — Tesla Trek Revenue",
+  "item": "Cyberwhistle-style Merch",
+  "priceDOGE": 300,
+  "dogePay": {
+    "uri": "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=300&message=Tesla%20Trek%20Merch%20Fund%20-%20Cyberwhistle-style%20Merch%20%E2%80%A2%2050%25%20to%20Revenue%20Cat%20124303201%2F33968299",
+    "address": "D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL",
+    "amount": 300,
+    "memo": "Tesla Trek Merch Fund - Cyberwhistle-style Merch • 50% to Revenue Cat 124303201/33968299"
+  },
+  "allocation": "50% to Tesla Trek Revenue (124303201/33968299)",
+  "categoryRef": "124303201/33968299",
+  "evidenceNote": "Funds direct Tesla Shop merch purchase or Fleet API. Plaid-tagged + on-chain memo verifier.",
+  "isFleet": false,
+  "revenueTag": "tesla-trek-revenue",
+  "plugInstructions": "Direct drop into nextlify marketplace teslaOffers array or getBestOfNTeslaOffers() extension in dashboard. Also works as standalone TeslaMerchProduct. Use buyTeslaMerch() handler already present in marketplace/page.tsx."
+}
