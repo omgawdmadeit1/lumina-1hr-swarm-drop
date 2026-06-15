@@ -1,0 +1,17 @@
+{
+  "id": "prod_lumina_bundle_250_20260615",
+  "type": "Listing",
+  "projectId": "proj_lumina_250",
+  "title": "Lumina Pro Bundle — 250 DOGE",
+  "price": 250,
+  "currency": "DOGE",
+  "rights": "Non-exclusive sync + full stems + human authorship logs + ASCAP bundle + collector NFT rights option",
+  "status": "live",
+  "dogePay": {
+    "uri": "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=250&message=Lumina%20Pro%20Bundle%20250%20-%20Lumina%20Bundle",
+    "address": "D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL",
+    "amount": 250,
+    "memo": "Lumina Pro Bundle 250 - Lumina Bundle"
+  },
+  "plugInstructions": "Paste this object directly into nextlify/app/marketplace listings array or save via /api/lumina/save {key:'listings', data:[...this]}. Also usable in creation flow after bundle export."
+}
