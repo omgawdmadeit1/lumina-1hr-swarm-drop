@@ -1,0 +1,1 @@
+[Full one-pager content: headers, product table with prices/URIs, traction bullets from code (live app, 15 rules, Trek assets, fund 1.25M, etc.), CTAs, Plaid/evidence references.]
