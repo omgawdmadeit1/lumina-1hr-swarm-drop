@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMINA WAVE2 GOODS • 42/69/120/199 DOGE • DIRECT RECEIVER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+    body { font-family: 'Inter', system_ui, sans-serif; }
+    .font-display { font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+    .cyber-grid { background-image: linear-gradient(rgba(227,25,55,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(227,25,55,0.07) 1px, transparent 1px); background-size: 22px 22px; }
+    .glass { background: rgba(15, 15, 18, 0.88); backdrop-filter: blur(20px); border: 1px solid rgba(227, 25, 55, 0.18); }
+    .neon-border { border-color: rgba(227, 25, 55, 0.45); box-shadow: 0 0 0 1px rgba(227, 25, 55, 0.1); }
+    .section-header { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #E31937; font-weight: 700; }
+    .epic-btn { position: relative; overflow: hidden; transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1); font-weight: 600; }
+    .epic-btn::before { content: ''; position: absolute; top: 0; left: -120%; width: 35%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent); transition: 0.65s; }
+    .epic-btn:hover::before { left: 280%; }
+    .uri-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.75rem; line-height: 1.1; word-break: break-all; }
+    .amount { font-size: 2.5rem; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .warning-banner { background: linear-gradient(90deg, #3f0f14, #1f080b); border: 1px solid #E31937; }
+    .qr-canvas { background: #111; padding: 8px; border-radius: 8px; border: 1px solid rgba(227,25,55,0.25); }
+    .copy-btn { transition: all 0.1s ease; }
+    .copy-btn:active { transform: scale(0.96); }
+    .hud-text { text-shadow: 0 0 8px rgba(227, 25, 55, 0.3); }
+    .status-dot { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  </style>
+</head>
+<body class="bg-[#0a0a0a] text-white cyber-grid min-h-screen">
+  <div class="max-w-2xl mx-auto p-6">
+    <div class="flex items-center justify-between mb-6">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-[#E31937] flex items-center justify-center"><span class="text-black font-black text-2xl tracking-tighter">L</span></div>
+        <div><div class="font-display text-4xl font-bold tracking-[-2.5px] hud-text">LUMINA</div><div class="text-[10px] text-white/50 -mt-1.5 tracking-[3px]">WAVE2 GOODS • PROMPTS • BIBLES • VISUALS</div></div>
+      </div>
+      <div class="text-right"><div class="text-xs uppercase tracking-[2px] text-white/50">DIRECT DOGE RECEIVER</div><div class="text-[#E31937] text-sm font-semibold flex items-center justify-end gap-1.5"><span class="status-dot w-1.5 h-1.5 bg-[#E31937] rounded-full inline-block"></span>42/69/120/199 DOGE</div></div>
+    </div>
+
+    <div class="warning-banner rounded-xl p-3 mb-6 text-xs">
+      <strong>DEMO / PLACEHOLDER ONLY.</strong> All URIs below use D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL (and D8/D9 variants in other rails). <strong>Search/replace every DEMO address with your real receive-only DOGE address before hosting or sharing.</strong> Real crypto inflows only after you do. Host the wave2 folder (MDs + this HTML + generated JPGs from the prompts in wave2-jpg-descriptions-prompts.md), share the page or direct dogecoin: URI, buyer pays exact amount with matching memo, you confirm on-chain (addr + amt + exact memo on dogechain.info or blockcypher), then deliver the ZIP of this wave2 folder (prompts, bibles, descriptions, provenance). 100% direct. Verifiable. No custody. Ties to Cyberbeast 1.25M and 50% Trek cat 124303201/33968299 where applicable. Cross-sell with hour1-ultimate-master-bundle 199 DOGE crown jewel.
+    </div>
+
+    <div class="glass rounded-3xl p-6 neon-border mb-4">
+      <div class="section-header mb-1">WAVE2 QUANTUM UGC • STEMS • VISUALS</div>
+      <div class="text-2xl font-bold mb-1">Lumina 1hr Swarm Goods Wave2 — 4 SKUs</div>
+      <div class="text-white/60 text-sm mb-4">5 new high-value visual descriptions + prompts (HUD v2, Swarm Mesh, Tesla Trek 199 Crown Buckle+Fortune, Music Visualizer+Stems, Abstract Network) + quantum-ugc-stem-expansion-bible.md + wave2-bundle-catalog.md. Prompts ready for image_gen or "use prior visuals + new". Compatible with Lumina /creation + prior receivers. Human provenance included.</div>
+
+      <div class="space-y-4" id="skus">
+        <!-- Populated by JS from data -->
+      </div>
+    </div>
+
+    <div class="text-[10px] text-white/50">All facts from hour1-swarm-goods-wave2/ + prior batch-1 / hour1-goods-catalog / nextlify/lib/dogepay.ts. Replace DEMO for real use. Serve locally (python -m http.server) or gh-pages. LFG direct DOGE. Generated 2026-06-15.</div>
+  </div>
+
+  <script>
+    const skus = [
+      { id: "hud-42", title: "Lumina Cyber HUD Pack • 42 DOGE", price: 42, uri: "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=42&message=Lumina%20Cyber%20HUD%20Pack%20%E2%80%A2%2042%20DOGE", desc: "5 wave2 quantum cyber HUD visuals + prompts (metrics, sentiment, velocity, core temp, abstract). Pair with quantum-ugc-stem-expansion-bible.md excerpts + prior hud packs. Entry for dashboard / fund tracker visuals." },
+      { id: "ugc-69", title: "Lumina Quantum UGC Stems Visual Pack • 69 DOGE", price: 69, uri: "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=69&message=Lumina%20Quantum%20UGC%20Stems%20Visual%20Pack%20%E2%80%A2%2069%20DOGE", desc: "Swarm Agents Quantum Mesh v2 + Music Visualizer HUD + LMW Stem Waveform + Abstract Fortune Network. Full prompts + stem/UGC bible pairings (LMW 18 stems, 138 BPM, quantum dirt road). For visualizer bundles, remix kits, UGC." },
+      { id: "bundle-120", title: "Lumina Swarm Agents + Tesla Trek Visuals Bundle • 120 DOGE", price: 120, uri: "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=120&message=Lumina%20Swarm%20Agents%20%2B%20Tesla%20Trek%20Visuals%20Bundle%20%E2%80%A2%20120%20DOGE", desc: "All 5 wave2 JPG descriptions/prompts + full quantum-ugc-stem-expansion-bible.md. Heavy on Cyberbeast Swarm + Tesla Trek 199 Crown Buckle Fortune. Turnkey for creation + direct sales." },
+      { id: "crown-199", title: "Lumina Wave2 199DOGE Crown Jewel Master (cross-ref 199) • 199 DOGE", price: 199, uri: "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=199&message=Lumina%20Wave2%20199DOGE%20Crown%20Jewel%20%2B%20Master%20Bundle%20%E2%80%A2%20199%20DOGE", desc: "Wave2 full (5 visuals + bibles) + cross-ref to hour1-ultimate-master-bundle 199 DOGE crown (6 JPGs + 3 receivers + verifier + marketing). Premium upsell. 50% Trek tag on qualifying." }
+    ];
+    function renderSKUs() {
+      const c = document.getElementById('skus');
+      c.innerHTML = skus.map(s => `
+        <div class="glass rounded-2xl p-4 border border-white/10">
+          <div class="flex justify-between items-start">
+            <div>
+              <div class="font-bold">${s.title}</div>
+              <div class="text-white/60 text-xs mt-0.5">${s.desc}</div>
+            </div>
+            <div class="text-right shrink-0 ml-3">
+              <div class="amount text-[#E31937] tabular-nums">${s.price}</div>
+              <div class="text-[10px] text-white/50 -mt-1">DOGE</div>
+            </div>
+          </div>
+          <div class="mt-3 flex gap-2">
+            <button onclick="copyURI('${s.uri}', this)" class="epic-btn flex-1 bg-white/10 hover:bg-white/20 text-white py-2 rounded-xl text-sm font-semibold">COPY DOGECOIN URI</button>
+            <button onclick="showQR('${s.uri}')" class="px-3 py-2 rounded-xl border border-white/30 text-xs">QR</button>
+          </div>
+          <div class="mt-2 text-[10px] text-emerald-400">After pay: confirm exact memo on on-chain-verifier.html or dogechain.info → deliver wave2 folder ZIP (prompts + bibles + this receiver). Cross-sell master 199.</div>
+        </div>`).join('');
+    }
+    let currentQR;
+    function copyURI(u, btn) {
+      navigator.clipboard.writeText(u).then(() => {
+        const old = btn.innerText; btn.innerText = 'COPIED'; setTimeout(() => btn.innerText = old, 1400);
+      });
+    }
+    function showQR(u) {
+      const el = document.createElement('div'); el.className = 'fixed inset-0 bg-black/80 flex items-center justify-center z-50'; el.innerHTML = `<div class="glass p-6 rounded-3xl max-w-[260px] text-center"><div id="qrel" class="qr-canvas mx-auto"></div><div class="mt-3 text-xs text-white/60 break-all">${u}</div><button class="mt-4 text-xs underline" onclick="this.closest('.fixed').remove()">CLOSE</button></div>`;
+      document.body.appendChild(el);
+      new QRCode(el.querySelector('#qrel'), { text: u, width: 200, height: 200, colorDark: '#E31937', colorLight: '#111' });
+    }
+    window.onload = () => { renderSKUs(); };
+    // Truth note: Edit all D7Y7/D8/D9 in this file + any URIs before deploy. Use with wave2 MDs (catalog, bibles, prompts) + generated JPGs from the 5 prompts in wave2-jpg-descriptions-prompts.md. Host entire wave2 dir.
+  </script>
+</body>
+</html>
