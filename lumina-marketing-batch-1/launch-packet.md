@@ -1,0 +1,1 @@
+Full launch packet from agent (income-accelerator style): one-pager, X posts (refs the threads), 4 DM scripts (collectors/Tesla/creators/NFT), mini assets, evidence list (nextlify features, dogepay URIs, 15 rules, fund tracker, Trek assets), post-launch checklist. All tied to shipped Lumina + Fortune prep + fund/Tesla loop.
