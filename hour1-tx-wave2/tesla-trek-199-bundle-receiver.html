@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TESLA TREK 199 BUNDLE • D7/D9 MIX • LUMINA TRANSACTIONS CLOSER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+    :root { --tesla-red: #E31937; --neon-cyan: #00f9ff; --void: #0a0a0a; --gold: #ffd700; }
+    body { font-family: 'Inter', system_ui, sans-serif; }
+    .font-display { font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+    .cyber-grid { background-image: linear-gradient(rgba(227,25,55,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(227,25,55,0.07) 1px, transparent 1px); background-size: 22px 22px; }
+    .glass { background: rgba(15, 15, 18, 0.88); backdrop-filter: blur(20px); border: 1px solid rgba(227, 25, 55, 0.18); }
+    .neon-border { border-color: rgba(227, 25, 55, 0.45); box-shadow: 0 0 0 1px rgba(227, 25, 55, 0.1); }
+    .section-header { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #E31937; font-weight: 700; }
+    .epic-btn { position: relative; overflow: hidden; transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1); font-weight: 600; }
+    .epic-btn::before { content: ''; position: absolute; top: 0; left: -120%; width: 35%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent); transition: 0.65s; }
+    .epic-btn:hover::before { left: 280%; }
+    .uri-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.75rem; line-height: 1.1; word-break: break-all; }
+    .amount { font-size: 2.5rem; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .warning-banner { background: linear-gradient(90deg, #3f0f14, #1f080b); border: 1px solid #E31937; }
+    .qr-canvas { background: #111; padding: 8px; border-radius: 8px; border: 1px solid rgba(227,25,55,0.25); }
+    .copy-btn { transition: all 0.1s ease; }
+    .copy-btn:active { transform: scale(0.96); }
+    .hud-text { text-shadow: 0 0 8px rgba(227, 25, 55, 0.3); }
+    .status-dot { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    .trek-note { font-size: 11px; background: rgba(227,25,55,0.1); border-left: 3px solid #E31937; }
+  </style>
+</head>
+<body class="bg-[#0a0a0a] text-white cyber-grid min-h-screen">
+  <div class="max-w-2xl mx-auto p-6">
+    <!-- HEADER -->
+    <div class="flex items-center justify-between mb-6">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-[#E31937] flex items-center justify-center">
+          <span class="text-black font-black text-2xl tracking-tighter">L</span>
+        </div>
+        <div>
+          <div class="font-display text-4xl font-bold tracking-[-2.5px] hud-text">LUMINA</div>
+          <div class="text-[10px] text-white/50 -mt-1.5 tracking-[3px]">TESLA TREK 199 • D7/D9 MIX</div>
+        </div>
+      </div>
+      <div class="text-right">
+        <div class="text-xs uppercase tracking-[2px] text-white/50">SPECIALIZED INSTANT RECEIVER</div>
+        <div class="text-[#E31937] text-sm font-semibold flex items-center justify-end gap-1.5">
+          <span class="status-dot w-1.5 h-1.5 bg-[#E31937] rounded-full inline-block"></span>
+          199 DOGE • MASTER BUNDLE
+        </div>
+      </div>
+    </div>
+
+    <!-- CRITICAL DEMO + TRUTH BANNER (prominent per task) -->
+    <div class="warning-banner rounded-xl p-3 mb-6 text-xs">
+      <strong>DEMO / PLACEHOLDER ONLY.</strong> Uses D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL (main) + D9TeslaFleet... (fleet mix). <strong>Replace all DEMO addresses with your real receive-only DOGE before any hosting/sharing.</strong> Real crypto only after you do + buyer sends exact 199 with matching memo + you confirm on-chain. 50% of receipt allocated to Tesla Trek Revenue cat 124303201/33968299 (Plaid cashflow tie). Direct wallet-to-wallet. Verifiable on dogechain/blockcypher. No custody.
+    </div>
+
+    <div class="glass rounded-3xl p-6 neon-border">
+      <div class="section-header mb-1">MASTER BUNDLE • 50% TREK REVENUE TAG</div>
+      <div class="text-2xl font-bold mb-1">Tesla Trek 199 Bundle — Wave2 Master</div>
+      <div class="text-white/60 text-sm mb-4">Full Lumina 1hr swarm goods (6 JPGs + catalog + receivers + marketing) + direct rails. Explicit 50% to cat 124303201/33968299 on the Trek portion. D9 component for Fleet API sustain overage.</div>
+
+      <div class="mb-4">
+        <div class="flex items-baseline gap-2">
+          <div class="amount text-[#E31937] tabular-nums">199</div>
+          <div class="text-xl text-white/70">DOGE</div>
+        </div>
+        <div class="text-[10px] text-white/50">Includes master catalog + trek pass style assets + re-usable rails</div>
+      </div>
+
+      <div class="trek-note p-3 rounded-r-xl mb-4">
+        <strong>Allocation:</strong> 50% of receipt to Tesla Trek Revenue category (124303201/33968299). D9 mix for developer.tesla.com Fleet API sustain ($10+ overage).
+      </div>
+
+      <div class="mb-2 text-xs uppercase tracking-widest text-white/50">Payment URI (D7 main + D9 fleet note)</div>
+      <div id="uri" class="uri-mono bg-black/70 p-3 rounded-xl break-all mb-3">dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=199&message=Tesla%20Trek%20199%20Bundle%20-%20Master%20Bundle%20%E2%80%A2%2050%25%20to%20Revenue%20Cat%20124303201%2F33968299</div>
+
+      <div class="flex gap-2">
+        <button onclick="copyURI()" class="epic-btn flex-1 bg-white text-black py-3 rounded-2xl font-semibold">COPY DOGECOIN URI</button>
+        <button onclick="regenQR()" class="px-4 py-3 rounded-2xl border border-white/30">REGEN QR</button>
+      </div>
+
+      <div class="mt-4 flex justify-center"><div id="qrcode" class="qr-canvas"></div></div>
+
+      <div class="mt-4 text-xs text-white/60">
+        After pay: confirm FULL match (addr + 199 + exact memo) in on-chain-verifier.html or explorer. Then deliver ZIP from hour1-ultimate-master-bundle/ (or goods wave). Buyer also gets the receiver HTMLs as re-usable rails.
+      </div>
+    </div>
+
+    <div class="mt-4 text-[10px] text-white/50">Built from nextlify/lib/dogepay.ts + master bundle provenance. 15 billingplane + threat-model. 2026-06-15 swarm output.</div>
+  </div>
+
+  <script>
+    let qr;
+    function copyURI() { const u = document.getElementById('uri').innerText; navigator.clipboard.writeText(u); }
+    function regenQR() {
+      const u = document.getElementById('uri').innerText;
+      const el = document.getElementById('qrcode'); el.innerHTML = '';
+      qr = new QRCode(el, { text: u, width: 180, height: 180, colorDark: '#E31937', colorLight: '#111' });
+    }
+    window.onload = () => { regenQR(); };
+  </script>
+</body>
+</html>
