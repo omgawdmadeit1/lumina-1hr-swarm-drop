@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBERBEAST FUND 150 • DEDICATED D8 • LUMINA TRANSACTIONS CLOSER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+    :root { --tesla-red: #E31937; --neon-cyan: #00f9ff; --void: #0a0a0a; --gold: #ffd700; }
+    body { font-family: 'Inter', system_ui, sans-serif; }
+    .font-display { font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+    .cyber-grid { background-image: linear-gradient(rgba(227,25,55,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(227,25,55,0.07) 1px, transparent 1px); background-size: 22px 22px; }
+    .glass { background: rgba(15, 15, 18, 0.88); backdrop-filter: blur(20px); border: 1px solid rgba(227, 25, 55, 0.18); }
+    .neon-border { border-color: rgba(227, 25, 55, 0.45); box-shadow: 0 0 0 1px rgba(227, 25, 55, 0.1); }
+    .section-header { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #E31937; font-weight: 700; }
+    .epic-btn { position: relative; overflow: hidden; transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1); font-weight: 600; }
+    .epic-btn::before { content: ''; position: absolute; top: 0; left: -120%; width: 35%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent); transition: 0.65s; }
+    .epic-btn:hover::before { left: 280%; }
+    .uri-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.75rem; line-height: 1.1; word-break: break-all; }
+    .amount { font-size: 2.5rem; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .warning-banner { background: linear-gradient(90deg, #3f0f14, #1f080b); border: 1px solid #E31937; }
+    .qr-canvas { background: #111; padding: 8px; border-radius: 8px; border: 1px solid rgba(227,25,55,0.25); }
+    .copy-btn { transition: all 0.1s ease; }
+    .copy-btn:active { transform: scale(0.96); }
+    .hud-text { text-shadow: 0 0 8px rgba(227, 25, 55, 0.3); }
+    .progress-bar { height: 14px; background: #111; border-radius: 999px; overflow: hidden; border: 1px solid rgba(227,25,55,0.3); }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, #E31937, #ff6b6b); transition: width .6s ease; }
+    .status-dot { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  </style>
+</head>
+<body class="bg-[#0a0a0a] text-white cyber-grid min-h-screen">
+  <div class="max-w-2xl mx-auto p-6">
+    <!-- HEADER -->
+    <div class="flex items-center justify-between mb-6">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-[#E31937] flex items-center justify-center">
+          <span class="text-black font-black text-2xl tracking-tighter">L</span>
+        </div>
+        <div>
+          <div class="font-display text-4xl font-bold tracking-[-2.5px] hud-text">LUMINA</div>
+          <div class="text-[10px] text-white/50 -mt-1.5 tracking-[3px]">CYBERBEAST FUND • D8 DEDICATED</div>
+        </div>
+      </div>
+      <div class="text-right">
+        <div class="text-xs uppercase tracking-[2px] text-white/50">SPECIALIZED INSTANT RECEIVER</div>
+        <div class="text-[#E31937] text-sm font-semibold flex items-center justify-end gap-1.5">
+          <span class="status-dot w-1.5 h-1.5 bg-[#E31937] rounded-full inline-block"></span>
+          150 DOGE • WAVE2
+        </div>
+      </div>
+    </div>
+
+    <!-- CRITICAL DEMO TRUTH BANNER -->
+    <div class="warning-banner rounded-xl p-3 mb-6 text-xs">
+      <strong>DEMO / PLACEHOLDER ONLY.</strong> This HTML uses D8CyberbeastFundAddressHereFor1.25MGoal1234567890 (and similar D7Y7... / D9... in other rails). <strong>Replace every instance with your real receive-only DOGE address before hosting or sharing.</strong> No real inflows possible until you do. After replace: host (raw GitHub / Pages / netlify / python server), share the page or the dogecoin: URI, buyer pays exact 150 DOGE with matching memo, you confirm on-chain (addr + amt + exact memo), then deliver the bundle ZIP. 100% direct to your wallet. Verifiable. No custody.
+    </div>
+
+    <div class="glass rounded-3xl p-6 neon-border">
+      <div class="section-header mb-1">1.25M DOGE CYBERBEAST FUND</div>
+      <div class="text-2xl font-bold mb-1">Cyberbeast Fund 150 — Dedicated Tier</div>
+      <div class="text-white/60 text-sm mb-4">Direct DOGE receipt to the 1,250,000 DOGE goal. Ties to Lumina dashboard velocity + Plaid cashflow. 50% Trek revenue category documented on related merch where applicable.</div>
+
+      <div class="mb-4">
+        <div class="flex items-baseline gap-2">
+          <div class="amount text-[#E31937] tabular-nums">150</div>
+          <div class="text-xl text-white/70">DOGE</div>
+        </div>
+        <div class="text-[10px] text-white/50">One-time contribution • Ramp to goal</div>
+      </div>
+
+      <div class="mb-4">
+        <div class="progress-bar"><div class="progress-fill" style="width:12%"></div></div>
+        <div class="text-[10px] text-white/50 mt-1 flex justify-between"><span>Current: demo state</span><span>Goal: 1,250,000 DOGE</span></div>
+      </div>
+
+      <div class="mb-2 text-xs uppercase tracking-widest text-white/50">Payment URI (copy or scan)</div>
+      <div id="uri" class="uri-mono bg-black/70 p-3 rounded-xl break-all mb-3">dogecoin:D8CyberbeastFundAddressHereFor1.25MGoal1234567890?amount=150&message=Cyberbeast%20Fund%20150%20-%20Cyberbeast%20Fund%20%E2%80%A2%20Ramp%20to%201.25M%20DOGE</div>
+
+      <div class="flex gap-2">
+        <button onclick="copyURI()" class="epic-btn flex-1 bg-white text-black py-3 rounded-2xl font-semibold">COPY DOGECOIN URI</button>
+        <button onclick="regenQR()" class="px-4 py-3 rounded-2xl border border-white/30">REGEN QR</button>
+      </div>
+
+      <div class="mt-4 flex justify-center"><div id="qrcode" class="qr-canvas"></div></div>
+
+      <div class="mt-4 text-xs text-white/60">
+        After payment: open on-chain-verifier.html (or https://dogechain.info/address/YOURADDR), paste tx or filter by exact memo. Confirm addr + 150.00000000 + full memo match. Then deliver ZIP from hour1-ultimate-master-bundle/ or goods catalogs.
+      </div>
+    </div>
+
+    <div class="mt-4 text-[10px] text-white/50">Matches nextlify/lib/dogepay.ts generateCyberbeastFundDogePayLink patterns + Lumina dashboard fund tracker. 15 billingplane rules enforced. All facts from workspace on 2026-06-15.</div>
+  </div>
+
+  <script>
+    let qr;
+    function copyURI() {
+      const u = document.getElementById('uri').innerText;
+      navigator.clipboard.writeText(u).then(() => {
+        const b = event.currentTarget; if (b) { const t = b.innerText; b.innerText = 'COPIED'; setTimeout(() => b.innerText = t, 1200); }
+      });
+    }
+    function regenQR() {
+      const u = document.getElementById('uri').innerText;
+      const el = document.getElementById('qrcode'); el.innerHTML = '';
+      qr = new QRCode(el, { text: u, width: 180, height: 180, colorDark: '#E31937', colorLight: '#111' });
+    }
+    window.onload = () => { regenQR(); };
+    // NOTE: To make live: search/replace the D8... (and any D7/D9) with your real DOGE addr, save, re-host.
+  </script>
+</body>
+</html>
