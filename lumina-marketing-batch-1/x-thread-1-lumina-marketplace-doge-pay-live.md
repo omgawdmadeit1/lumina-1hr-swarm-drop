@@ -1,0 +1,1 @@
+Full 5-post X thread from agent (truthful from code): Lumina live marketplace + real DogePay (localhost:3000/marketplace note + exact 1.25M DOGE goal + Tesla revenue loop with 50% cat + sample URIs + code refs like lib/dogepay.ts, README billingplane 15 rules). Punchy LFG copy with CTAs to copy URI & pay, run localhost, claim. Evidence-based.
