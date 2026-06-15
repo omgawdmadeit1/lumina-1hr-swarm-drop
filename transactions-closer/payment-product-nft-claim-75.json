@@ -1,0 +1,17 @@
+{
+  "id": "prod_nft_claim_75_20260615",
+  "type": "PaymentLink",
+  "assetOrListingId": "nft_fortune_voucher_75",
+  "title": "NFT Claim — Lumina Fortune Voucher 75 DOGE",
+  "price": 75,
+  "currency": "DOGE",
+  "rights": "1/1 on-chain FortuneCookieNFT voucher (Base) + signed claim + full logs",
+  "status": "open",
+  "dogePay": {
+    "uri": "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=75&message=NFT%20Claim%20-%20Lumina%20Fortune%20-%20Lumina%20Bundle",
+    "address": "D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL",
+    "amount": 75,
+    "memo": "NFT Claim - Lumina Fortune - Lumina Bundle"
+  },
+  "plugInstructions": "Use in /claims page or creation flow. Matches Claim type + PaymentLink. After payment record claim with type:'purchase' and voucherSignature from /api/fortune/sign-voucher. Drop this JSON into marketplace listings or localStorage 'lumina_listings'."
+}
