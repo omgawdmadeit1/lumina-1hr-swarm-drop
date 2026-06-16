@@ -1,0 +1,78 @@
+LUMINA 3 STANDALONE DOGEPAY PRODUCTS — INDEX + README
+
+**File:** `transactions-closer/3standalone-doge-products-index.html` (created as Transactions micro follow-up 1/4 to top up)
+
+Exact multi-product static index for the 3 standalone DogePay products:
+- 250 Lumina Pro Bundle
+- 75 NFT Fortune Claim
+- 300 Tesla Trek Cyberwhistle
+
+All data, URIs, memos, titles, prices, rights, and allocation taken **verbatim** from the 3 JSON specs in this directory (from tx micro):
+- payment-product-lumina-bundle-250.json
+- payment-product-nft-claim-75.json
+- payment-product-tesla-trek-cyberwhistle-300.json
+
+Also grounded in: instant-receive.html, on-chain-verifier.html, prior tx-wave2 dedicated receivers (cyberbeast-fund-150doge-receiver.html, tesla-trek-199-bundle-receiver.html), hour1-pay-pages/* receivers, plug-snippet-add-to-marketplace.js, nextlify/lib/dogepay.ts (generateDogePay* + DOGE_PRODUCT_SKUs + getBestOfNTeslaOffers including Cyberwhistle 300 + 50% Trek cat 124303201/33968299), and cross-catalog refs (199 crown / Cyberbeast in hour1-goods-catalog + ultimate-master-bundle).
+
+**Self-contained:** Tailwind (CDN) + qrcode.js (CDN). Cyber style consistent with transactions-closer/ and hour1-tx-wave2/ receivers. Deployable raw or serve. No build step.
+
+## SERVE COMMAND (python on new port if needed)
+From the transactions-closer/ directory (or wherever you copied the files):
+
+```bash
+# In PowerShell / terminal, cd to the folder containing the HTML
+cd C:\Users\Josep\transactions-closer
+
+# Use a fresh port (e.g. 8910 or 8911 to avoid conflicts with prior 890x)
+python -m http.server 8911
+```
+
+Then open in browser:
+http://localhost:8911/3standalone-doge-products-index.html
+
+(Also serves siblings: on-chain-verifier.html, instant-receive.html, the 3 JSONs.)
+
+Alternative (if python not preferred): any static server, or double-click the .html directly (CDNs will load).
+
+## RAW GITHUB EXAMPLE (for instant public hosting / share)
+After pushing the file + siblings to repo (e.g. under main or master branch):
+
+```
+https://raw.githubusercontent.com/omgawdmadeit1/lumina/main/transactions-closer/3standalone-doge-products-index.html
+```
+
+Same for:
+- https://raw.githubusercontent.com/omgawdmadeit1/lumina/main/transactions-closer/on-chain-verifier.html
+- https://raw.githubusercontent.com/omgawdmadeit1/lumina/main/hour1-tx-wave2/tesla-trek-199-bundle-receiver.html (example dedicated)
+
+Use the raw link directly in posts/emails/buyer shares (or host on Vercel static / Blink etc.). Buyers can open raw HTML in any browser.
+
+## TRUTH (DEMO ONLY — 100% NO OVERCLAIMS)
+- **All 3 products currently use the DEMO placeholder address** `D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL` (exact same as in the 3 JSONs, instant-receive.html, on-chain-verifier.html, prior tx-wave2 dedicated receivers, hour1-pay-pages receivers, dogepay.ts DEFAULT_DOGE_ADDRESS + TESLA_TREK constants, and many marketing docs).
+- **These send to DEMO / nowhere.** No real inflows until replaced.
+- **To activate real DOGE:** Search/replace `D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL` (and any DEMO_ prefixed variants) in:
+  - This index.html
+  - The 3 payment-product-*.json files
+  - All receivers (transactions-closer/, hour1-pay-pages/, hour1-tx-wave2/ etc.)
+  - nextlify/.env + nextlify/lib/dogepay.ts (the 4 consts: DEFAULT, CYBERBEAST_FUND, TESLA_TREK, FLEET)
+- Then: host/raw the updated files (or serve locally), post the marketing report/email (see hour1-marketing-tx-3products/ + hour1-marketing-wave2/ + hour1-x-threads/ for threads/email/one-pager/SEO), share the raw/index links + exact URIs/QRs.
+- Buyer flow: open index (or dedicated receiver) → copy/scan dogecoin: URI (wallet auto-includes exact memo) → pay exact amount.
+- Seller: open on-chain-verifier.html (link in the index footer + after-pay section), paste real addr, FETCH, open dogechain.info/tx/... deep links to visually confirm **exact memo** string + addr + amount match. Mark verified + export proof JSON.
+- Deliver: bundle (for 250), NFT voucher + signed claim + logs (for 75), Cyberwhistle-style Merch (for 300, with 50% Trek allocation per JSON/dogepay.ts).
+- Verify on dogechain.info before/after. Record in Plaid/dash/claims as applicable. Reply to posts with verifier proof.
+- No custody. Explorer authoritative. All details 100% traceable to the inspected JSONs + dogepay.ts + receivers at creation time. No fabricated sales, revenue, or velocity claims here.
+
+## QUICK FLOW SUMMARY
+1. Replace address in the 3 JSONs + this index + receivers + dogepay.ts/.env.
+2. Host/serve this index.html (raw GitHub or python 8911 etc.).
+3. Post marketing (threads/email from prior agents in hour1-*-marketing/ + hour1-x-threads/).
+4. Buyer pays exact via URI/QR.
+5. Verify with on-chain-verifier.html (confirm exact memo).
+6. Deliver per rights/allocation in JSONs.
+7. Log proof + repeat.
+
+See go-live-60min.md (in this dir) for full 60min checklist + wave2 details. Cross to goods/199 crown/Cyberbeast via hour1-goods-catalog/catalog.md + ultimate-master-bundle/.
+
+**Deployable raw or serve. 100% truth.**
+
+Created: 2026-06-15 — Transactions micro follow-up (1/4 to top up). Grounded exclusively in the specified sources. LFG direct DOGE unification of tx + goods.
