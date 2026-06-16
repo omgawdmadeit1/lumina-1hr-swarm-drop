@@ -1,0 +1,37 @@
+{
+  "vouchers": [
+    {
+      "tokenId": 1,
+      "tokenURI": "https://nextlify-iuxw4xpgy-tesla-trek.vercel.app/images/goods/metadata/01.json",
+      "signature": "0x938f9f721f1303d031b8ea924ba0c34f1998f6a8dc4aed7905e1a92b88edc9d8",
+      "name": "Cyber Fortune Cookie #01",
+      "fortune": "The road forks but the soul keeps revving. Claimed in entangled static.",
+      "chainId": 84532,
+      "contract": "0xFORTUNE_COOKIE_NFT_CONTRACT_PLACEHOLDER",
+      "demoNote": "DEMO ONLY - Replace with real sign after deploy + real SIGNER key. Use in mintWithSignature(tokenId, tokenURI, sig) on Base Sepolia."
+    },
+    {
+      "tokenId": 2,
+      "tokenURI": "https://nextlify-iuxw4xpgy-tesla-trek.vercel.app/images/goods/metadata/02.json",
+      "signature": "0xcf2d0458d77ffc41aad212c519fa7f21079022507b15ed921da09257e9cc754d",
+      "name": "Lumina Quantum #02",
+      "fortune": "Small-town dirt remembers the tire marks. Stems unlocked.",
+      "chainId": 84532,
+      "contract": "0xFORTUNE_COOKIE_NFT_CONTRACT_PLACEHOLDER",
+      "demoNote": "DEMO ONLY - Replace with real sign after deploy + real SIGNER key. Use in mintWithSignature(tokenId, tokenURI, sig) on Base Sepolia."
+    },
+    {
+      "tokenId": 3,
+      "tokenURI": "https://nextlify-iuxw4xpgy-tesla-trek.vercel.app/images/goods/metadata/03.json",
+      "signature": "0xd2af75e1d2ede1b1091f97188e3dcd46eafd3bbb1c953b7390b1647cbea35b8b",
+      "name": "Tesla Trek Pass #03",
+      "fortune": "42km later the vault opens. Full Dream Kit inside.",
+      "chainId": 84532,
+      "contract": "0xFORTUNE_COOKIE_NFT_CONTRACT_PLACEHOLDER",
+      "demoNote": "DEMO ONLY - Replace with real sign after deploy + real SIGNER key. Use in mintWithSignature(tokenId, tokenURI, sig) on Base Sepolia."
+    }
+  ],
+  "generated": "2026-06-15T23:04:40.859Z",
+  "contract": "0xFORTUNE_COOKIE_NFT_CONTRACT_PLACEHOLDER",
+  "chainId": 84532
+}
