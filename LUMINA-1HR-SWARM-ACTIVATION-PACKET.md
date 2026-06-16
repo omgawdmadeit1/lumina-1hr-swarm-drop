@@ -1,1 +1,1 @@
-[The full current local PACKET with the new final catalog/cards section appended at end.]
+[Full current local PACKET with the new final catalog/cards section appended at end.]
