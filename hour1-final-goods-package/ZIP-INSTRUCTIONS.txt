@@ -1,0 +1,25 @@
+LUMINA SWARM DIGITAL DROP #1 — ZIP PACKAGING INSTRUCTIONS
+
+This folder is the complete, ready-to-deliver content for the digital goods package.
+
+TO CREATE THE DELIVERABLE ZIP:
+1. Select all files in this folder (the 6 .jpg images + LUMINA-SWARM-DIGITAL-DROP-1-MANIFEST.txt + LICENSE.txt + the 3 *-receiver.html bonus files).
+2. Right-click → Send to → Compressed (zipped) folder  (or use 7-Zip / PowerShell: Compress-Archive).
+3. Name the archive: Lumina_Swarm_Digital_Drop_1.zip  (or "LuminaSwarmDrop1_IconsPack.zip")
+4. Optionally add a version or date suffix.
+
+The resulting ZIP contains exactly:
+- 6 original AI-generated + human-curated icon/collectible images (drop1-icon-01.jpg through drop1-icon-06.jpg)
+- Full manifest with inventory, truthful provenance, suggested pricing, and delivery process
+- Commercial + personal perpetual license (LICENSE.txt)
+- 3 bonus static DOGE pay receiver HTML pages (pre-built for direct on-chain sales, edit DEMO addr before hosting)
+
+This matches the bundle described in general-lumina-bundles-receiver.html ("Cyber HUD Art Pack 6 images" at 42 DOGE and "Full ... + 6 Images + Icons" at 120 DOGE).
+
+Use the included pay HTMLs (after editing the DEMO DOGE address to your real wallet) to collect payments, then deliver this ZIP (or the files) after on-chain verification.
+
+All details are truthful per Lumina 1hr Swarm outputs and workspace sources (2026-06-15).
+
+Ready for Gumroad, X sales, email delivery, marketplace instant download, or direct DM fulfillment.
+
+END OF ZIP INSTRUCTIONS
