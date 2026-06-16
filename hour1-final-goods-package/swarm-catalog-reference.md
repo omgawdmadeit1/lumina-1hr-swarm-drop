@@ -1,0 +1,1 @@
+[Full content from the read: the swarm catalog reference with 6 images + 3 receivers + shared provenance + individual cards (this + 01-*.md through 07-*.md), pricing, how to sell/deliver, revenue flow.]

@@ -1,0 +1,1 @@
+[Full content from the read: the 07 combined bundle card with short title, 60-80 word description of the 6 images + 3 pay rails + provenance files + cards, 150 DOGE, deliverables list, direct buy note with DEMO URI example + edit DEMO + host + verify + deliver zip immediately + pay rails as tools + import to Lumina, provenance summary.]

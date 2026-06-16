@@ -1,1 +1,1 @@
-[The updated master index with the new tx-3products marketing assets, raw GitHub for the folder, 8924 server note, crosses.]
+[The updated master index with the finalized catalog + 7 product cards, raw GitHub examples for master-catalog + 07/00 + reference, 8925 server note, crosses to all prior (tx-3products 4 threads at 8924, deployment raw at 8923, 6 images manifests at 8921/8922, tx live at 8920/8919, NFT 8914, 199, wave4, live vercel).]
