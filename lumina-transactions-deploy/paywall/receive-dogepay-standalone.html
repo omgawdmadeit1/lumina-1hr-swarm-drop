@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LUMINA • DOGE RECEIVE (Paywall / Revenue)</title>
+  <style>body { font-family: monospace; background:#0a0a0a; color:#fff; padding:20px; max-width:900px; margin:auto; } .opt { border:1px solid #E31937; padding:16px; margin:12px 0; border-radius:12px; } button { background:#E31937; color:white; border:none; padding:10px 16px; border-radius:8px; cursor:pointer; margin:4px; } .uri { font-size:11px; word-break:break-all; background:#111; padding:8px; border-radius:6px; }</style>
+</head>
+<body>
+  <h1>LUMINA RECEIVE — DOGE PAYWALL (Standalone Micro)</h1>
+  <p>Multiple DOGE options tied to 1.25M Cyberbeast Fund goal + Tesla Trek 50% revenue allocations. Copy dogecoin: URI and pay from any DOGE wallet. Real inflows once you control the addr and set in live Lumina Vercel envs.</p>
+  <p><strong>Live integrated version (recommended after envs set):</strong> <a href="https://nextlify-topaz.vercel.app/receive" style="color:#E31937">https://nextlify-topaz.vercel.app/receive</a> or /dashboard</p>
+
+  <h3>Options (demo addrs — replace with real controlled for live use)</h3>
+
+  <div class="opt">
+    <strong>CYBERBEAST FUND (1.25M goal)</strong><br>
+    <button onclick="copyURI('cyberbeast')">COPY dogecoin: URI</button>
+    <button onclick="openURI('cyberbeast')">OPEN IN WALLET</button><br>
+    <div id="uri-cyberbeast" class="uri">dogecoin:D8CyberbeastFundAddressHereFor1.25MGoal1234567890?amount=100&amp;message=Cyberbeast%20Fund%20Contribution%20-%20Cyberbeast%20Fund%20%E2%80%A2%20Ramp%20to%201.25M%20DOGE</div>
+    <small>100% to fund. After pay: verify on dogechain.info, use receipt templates.</small>
+  </div>
+
+  <div class="opt">
+    <strong>TESLA GIGA BELT BUCKLE (Merch • 50% Trek Rev cat 124303201/33968299)</strong><br>
+    <button onclick="copyURI('giga')">COPY dogecoin: URI</button>
+    <button onclick="openURI('giga')">OPEN IN WALLET</button><br>
+    <div id="uri-giga" class="uri">dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=850&amp;message=Tesla%20Trek%20Merch%20Fund%20-%20Giga%20Texas%20Belt%20Buckle%20%E2%80%A2%2050%25%20to%20Revenue%20Cat%20124303201%2F33968299</div>
+    <small>Funds Tesla Shop merch. Plaid cashflow cat tie + on-chain verifier.</small>
+  </div>
+
+  <div class="opt">
+    <strong>FLEET API SUSTAIN (10+)</strong><br>
+    <button onclick="copyURI('fleet')">COPY dogecoin: URI</button>
+    <button onclick="openURI('fleet')">OPEN IN WALLET</button><br>
+    <div id="uri-fleet" class="uri">dogecoin:D9TeslaFleetAPISustainBillingOverage10Plus12345?amount=15&amp;message=Fleet%20API%20Sustain%20%2410%2B%20Billing%20%E2%80%A2%20Lumina%20Pay%20Tesla%20%E2%80%A2%20Funds%20developer.tesla.com%20billing%20after%20%2410%2Fmo%20discount</div>
+  </div>
+
+  <p style="font-size:11px;opacity:0.6">To enable REAL payments: 1. Control real DOGE wallet(s). 2. Update .env.example + set 4 NEXT_PUBLIC_*_DOGE in your Vercel nextlify project envs (Production). 3. Redeploy. 4. Share the live /receive link. Verify all txs + annotate Plaid for evidence. Templates in receipts/ dir.</p>
+
+  <script>
+    const uris = {
+      cyberbeast: "dogecoin:D8CyberbeastFundAddressHereFor1.25MGoal1234567890?amount=100&message=Cyberbeast%20Fund%20Contribution%20-%20Cyberbeast%20Fund%20%E2%80%A2%20Ramp%20to%201.25M%20DOGE",
+      giga: "dogecoin:D7Y7v5vL3kQvN9pX2mR8sT4wU6iO0pA1sD3fG5hJ7kL?amount=850&message=Tesla%20Trek%20Merch%20Fund%20-%20Giga%20Texas%20Belt%20Buckle%20%E2%80%A2%2050%25%20to%20Revenue%20Cat%20124303201%2F33968299",
+      fleet: "dogecoin:D9TeslaFleetAPISustainBillingOverage10Plus12345?amount=15&message=Fleet%20API%20Sustain%20%2410%2B%20Billing%20%E2%80%A2%20Lumina%20Pay%20Tesla%20%E2%80%A2%20Funds%20developer.tesla.com%20billing%20after%20%2410%2Fmo%20discount"
+    };
+    function copyURI(k) { navigator.clipboard.writeText(uris[k]); alert('Copied: ' + uris[k]); }
+    function openURI(k) { window.open(uris[k], '_blank'); }
+  </script>
+</body>
+</html>
