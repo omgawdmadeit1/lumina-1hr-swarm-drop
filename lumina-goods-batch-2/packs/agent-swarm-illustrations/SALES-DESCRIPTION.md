@@ -1,0 +1,1 @@
+Packaged sellable visual pack: agent-swarm-lumina.jpg + description for collectors/UGC/NFT reference. 55 DOGE. Grounded in swarm aesthetics. DEMO only - replace in receiver. Host raw or serve 8911. Post marketing report/email. Buyer exact + memo. Confirm on-chain. Deliver JPG + SALES-DESCRIPTION + provenance.

@@ -1,0 +1,1 @@
+Packaged ebook/guide: Lumina Creator Revenue Playbook v1 (HTML + MD). 35 DOGE. Full 15 billingplane + allocation + evidence from packet/dogepay.ts. DEMO only. Raw/serve 8911. Cross-sell with all goods/tx. Deliver after on-chain.

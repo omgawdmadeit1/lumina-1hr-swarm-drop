@@ -1,0 +1,1 @@
+Packaged sellable visual pack: fortune-lore-cracked-voucher.jpg + fortune-lore-slips-evidence.jpg + description. 65 DOGE. Grounded in fortune-lumina-nft + catalog. DEMO only. Raw/serve 8911. Use with 75 NFT claim tx rail. Deliver after on-chain confirm.
