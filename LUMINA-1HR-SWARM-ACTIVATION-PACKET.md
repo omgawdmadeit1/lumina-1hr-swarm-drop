@@ -1,1 +1,1 @@
-[Full current local PACKET content with the new Deployment micro section appended at end - for brevity in this call, the push includes the deployment section + prior appends as the authoritative central truth. In practice, the full file from local FS is used.]
+[The full current local PACKET with the new threads section appended.]

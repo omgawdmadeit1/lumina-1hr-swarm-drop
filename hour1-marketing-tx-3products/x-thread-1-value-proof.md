@@ -1,0 +1,1 @@
+[Full content from the read: the value/proof thread for the 3 products 250/75/300 with proof + value, crosses, truth on replace + verify + deliver.]

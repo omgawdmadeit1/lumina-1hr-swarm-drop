@@ -1,0 +1,1 @@
+[The sales email from the folder.]

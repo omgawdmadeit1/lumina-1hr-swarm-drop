@@ -1,1 +1,1 @@
-[Updated master index with new raw GitHub deployment links for the 3 pay HTMLs + catalog from this micro, plus 8923 server note, cross to all prior. Full from local with deployment raw examples added.]
+[The updated master index with the new tx-3products marketing assets, raw GitHub for the folder, 8924 server note, crosses.]
